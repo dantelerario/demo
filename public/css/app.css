@@ -4,12 +4,43 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #e0e6f2;
+}
+body a {
+  underline: none;
+}
+
+a {
+  underline: none;
+}
+
 header .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #e0e6f2;
+  background-color: white;
   min-width: 950px;
+  min-height: 80px;
   font-size: 14px;
   font-weight: 700;
-  margin: 2% 3%;
+  margin: 1% 1%;
+}
+header .countdown-bar {
+  background-color: #335bad;
+}
+
+.main-up {
+  background-color: white;
+}
+
+.main-down {
+  background-color: #003399;
+}
+
+.material-links {
+  background-color: white;
+}
+
+footer {
+  background-color: #003399;
 }

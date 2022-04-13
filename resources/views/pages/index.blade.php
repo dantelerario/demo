@@ -45,10 +45,10 @@
                 <div class="countdown-el">16 seconds</div>
             </div>
             <div class="text-square">
-                
+                <p>The aim of this workshop is to present, discuss, validate and consolidate themain findings of WP1 Tasks 1 and 2 with selected experts on the topic. Theworkshop will also help fine-tune the preparation and implementation ofwork package 2of this project.</p>
             </div>    
         </header>
-        <main class="main-up">
+        <div class="main-up">
             <div class="container">
                 <h1>Agenda</h1>
                 <p>04 November 2021 | 10:00 - 14.30 CET</p>
@@ -162,8 +162,8 @@
                 </div>
                 <div class="btn download-btn">DOWNLOAD PDF</div>
             </div>
-        </main>
-        <main class="main-down">
+        </div>
+        <div class="main-down">
             <div class="container">
                 <div class="row">
                     <h1>Material</h1>
@@ -194,7 +194,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row material-links">
                     <p>For information and lorem ipsum dolor sit amet</p>
                     <a href="/">Lorem ipsum dolor sit amet<i></i></a>
                     <a href="/">Sed ut perspiciatis unde omnis iste<i></i></a>
@@ -203,7 +203,7 @@
                     <a href="/">Sed ut perspiciatis unde omnis iste natus error sit<i></i></a>
                 </div>
             </div>      
-        </main>
+        </div>
         <footer>
             <div class="col-lg-8">
                 <div class="row">

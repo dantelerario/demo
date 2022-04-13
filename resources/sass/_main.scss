@@ -4,18 +4,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    
+    background-color: $body_bgcolor;
+    a {
+        underline: none;
+    }
 }
+
+a {
+    underline: none;
+}
+
 header {
     .navbar {
         display: flex;
         justify-content: space-between;
-        background-color: $header_bgcolor;
+        background-color: white;
         min-width: 950px;
+        min-height: 80px;
         font-size: 14px;
         font-weight: 700;
-        margin: 2% 3%;
+        margin: 1% 1%;
+    }
+    .countdown-bar {
+        background-color: $countdown-bar_bgcolor;
     }
 }
+
+.main-up {
+    background-color: white;
+}
+.main-down {
+    background-color: $main-down_bgcolor;
+}
+
+.material-links {
+    background-color:white;
+}
+
+footer {
+    background-color: $main-down_bgcolor;
+}
+
 
