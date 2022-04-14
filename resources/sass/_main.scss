@@ -8,7 +8,6 @@
 
 body {
     background: rgb(224,230,242);
-    background: linear-gradient(90deg, rgba(224,230,242,1) 2%, rgba(224,230,242,1) 15%, rgba(255,255,255,1) 35%, rgba(224,230,242,1) 50%);
 }
 
 ul {
@@ -19,63 +18,128 @@ a {
     text-decoration: none;
 }
 
-header {
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        background-color: white;
-        align-items: center;
-        min-width: 950px;
-        min-height: 80px;
-        font-size: 14px;
-        font-weight: 700;
-        margin: 1% 1%;
-        -webkit-box-shadow: 5px 10px 12px -5px rgba(0,0,0,0.2);
-        -moz-box-shadow: 5px 10px 12px -5px rgba(0,0,0,0.2);
-        box-shadow: 5px 10px 12px -5px rgba(0,0,0,0.2);
-    }
-    .link-list {
-        margin-left: 60px;
-    }
-    .countdown-bar {
-        background-color: $countdown-bar_bgcolor;
-    }
-    a {
-        color: #003399;
-    }
-    ul {
-        display: flex;
-        align-items: center;
-        .links {
-            list-style: none;
-            margin: 0 30px;
-            cursor: pointer;
+.main-top {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    #agenda-title {
+        padding-top: 90px;
+        h1 {
+            font-weight: 700;
+            color: $main-blue;
         }
-        .links-social {
-            list-style: none;
-            margin: 0 10px;
-            cursor: pointer;
-            i {
-                color: grey;
-                font-size: 15px;
+        p {
+            color: grey;
+        }
+        span {
+            font-weight: 600;
+            color: lightblue;
+        }
+
+    }
+    #container-agenda {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        width: 80%;
+        h2 {
+            color: $main-blue;
+        }
+        .row {
+            display: flex;
+            .hour {
+                text-align: center;
+                color: $main-blue;
+                width: 30%;
+            }
+            .info {
+                text-align: left;
+                width: 70%;
+                padding-right: 10%;
+                h4 {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: $main-blue;
+                }
+                #info-square {
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-direction: row;
+                    color: white;
+                    background-color:$main-blue;
+                    padding: 20px;
+                    margin-top: 20px;
+                    border-radius: 3px;
+                    .avatar-square {
+                        border-radius: 50%;
+                        border:5px solid white;
+                        border-width: thick;
+                        overflow: hidden;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        min-width: 100px;
+                        max-height: 100px;
+                        margin-right: 5%;
+                        img {
+                            width: 100px;
+                            height: 100px;
+                        }
+                    }
+                }
+            } 
+            .download-btn {
+                text-align: center;
+                width: 200px;
+                display: inline-block;
+                color: $main-blue;
+                background: $light-blue;
+                border-radius: 5px;
+                padding: 10px 12px;
+                border: 2px solid $light-blue;
+            }
+            .download-btn:hover {
+                border: 2px solid $main-blue;
             }
         }
     }
-}
-
-.main-top {
-    background-color: white;
+    .btn-div {
+        padding: 70px 0;
+        display: flex;
+        justify-content: center;
+    }
 }
 .main-bottom {
-    background-color: $main-down_bgcolor;
+    background-color: $main-blue;
 }
 
 .material-links {
     background-color:white;
 }
 
+// arrow
+.arrow-box {
+    position: relative;
+    background: #88b7d5;
+}
+.arrow-box:after {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: $main-blue;
+    border-width: 8px;
+    margin-left: -325px;
+}
+
 footer {
-    background-color: $main-down_bgcolor;
+    background-color: $main-blue;
 }
 
 
