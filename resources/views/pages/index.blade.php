@@ -8,25 +8,24 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css">
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     </head>
     <body>
         <header>
             <div class="navbar">
-                <div class="col-lg-4">
-                </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4 link-list">
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">Agenda</a></li>
-                        <li><a href="/">Material</a></li>
+                        <li class="links"><a href="/">Home</a></li>
+                        <li class="links"><a href="/">Agenda</a></li>
+                        <li class="links"><a href="/">Material</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4">
-                    <ul>
-                        <li><a href="/"><i>Yotube</i></a></li>
-                        <li><a href="/"><i>Twitter</i></a></li>
-                        <li><a href="/"><i>Facebook</i></a></li>
+                    <ul class="">
+                        <li class="links-social"><a href="www.youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li class="links-social"><a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="links-social"><a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
                     </ul>
                 </div>
             </div>  
@@ -48,7 +47,7 @@
                 <p>The aim of this workshop is to present, discuss, validate and consolidate themain findings of WP1 Tasks 1 and 2 with selected experts on the topic. Theworkshop will also help fine-tune the preparation and implementation ofwork package 2of this project.</p>
             </div>    
         </header>
-        <div class="main-up">
+        <div class="main-top">
             <div class="container">
                 <h1>Agenda</h1>
                 <p>04 November 2021 | 10:00 - 14.30 CET</p>
@@ -163,11 +162,11 @@
                 <div class="btn download-btn">DOWNLOAD PDF</div>
             </div>
         </div>
-        <div class="main-down">
+        <div class="main-bottom">
             <div class="container">
                 <div class="row">
                     <h1>Material</h1>
-                    <div class="main-down-content">
+                    <div class="main-bottom-content">
                         <div class="row">
                             <div class="row-download-icon"><i></i></div>
                             <div class="row-download">

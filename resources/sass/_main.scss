@@ -7,14 +7,16 @@
 }
 
 body {
-    background-color: $body_bgcolor;
-    a {
-        underline: none;
-    }
+    background: rgb(224,230,242);
+    background: linear-gradient(90deg, rgba(224,230,242,1) 2%, rgba(224,230,242,1) 15%, rgba(255,255,255,1) 35%, rgba(224,230,242,1) 50%);
+}
+
+ul {
+    list-style-type: none;
 }
 
 a {
-    underline: none;
+    text-decoration: none;
 }
 
 header {
@@ -22,21 +24,49 @@ header {
         display: flex;
         justify-content: space-between;
         background-color: white;
+        align-items: center;
         min-width: 950px;
         min-height: 80px;
         font-size: 14px;
         font-weight: 700;
         margin: 1% 1%;
+        -webkit-box-shadow: 5px 10px 12px -5px rgba(0,0,0,0.2);
+        -moz-box-shadow: 5px 10px 12px -5px rgba(0,0,0,0.2);
+        box-shadow: 5px 10px 12px -5px rgba(0,0,0,0.2);
+    }
+    .link-list {
+        margin-left: 60px;
     }
     .countdown-bar {
         background-color: $countdown-bar_bgcolor;
     }
+    a {
+        color: #003399;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        .links {
+            list-style: none;
+            margin: 0 30px;
+            cursor: pointer;
+        }
+        .links-social {
+            list-style: none;
+            margin: 0 10px;
+            cursor: pointer;
+            i {
+                color: grey;
+                font-size: 15px;
+            }
+        }
+    }
 }
 
-.main-up {
+.main-top {
     background-color: white;
 }
-.main-down {
+.main-bottom {
     background-color: $main-down_bgcolor;
 }
 
