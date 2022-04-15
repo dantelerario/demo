@@ -4,9 +4,9 @@
 3 - run npm install
 4 - run cp .env.example .env or copy .env.example .env
 5 - run php artisan key:generate
-6 - run on console php artisan serve
-7 - run npm run watch (on another console to build css)
-8 - go to link localhost:8000 or 127.0.0.1:8000 *
+6 - run php -S localhost:8000 -t public
+7 - run npm run watch (on another console to build css facoltative)
+
 
 * Ci potrebbero essere problemi se sulla macchina localhost:8000 o 127.0.0.1:8000 sono già usati per altro
 
