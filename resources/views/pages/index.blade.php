@@ -204,7 +204,7 @@
                             <div class="row-download">
                                 <h4>EUOSHA Document</h4>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
-                                <div class="btn download-btn">DOWNLOAD <i></i></div>
+                                <div class="btn download-btn">DOWNLOAD <i class="fa-solid fa-download"></i></i></div>
                             </div>
                             <div class="row-download-icon-container">
                                 <div class="row-download-icon"><i class="fa-solid fa-book-open"></i></div>
@@ -212,7 +212,7 @@
                             <div class="row-download">
                                 <h4>EUOSHA Document</h4>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
-                                <div class="btn download-btn">DOWNLOAD <i></i></div>
+                                <div class="btn download-btn">DOWNLOAD <i class="fa-solid fa-download"></i></i></div>
                             </div>
                         </div>
                         <div class="row">
@@ -222,7 +222,7 @@
                             <div class="row-download">
                                 <h4>EUOSHA Document</h4>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
-                                <div class="btn download-btn">DOWNLOAD <i></i></div>
+                                <div class="btn download-btn">DOWNLOAD <i class="fa-solid fa-download"></i></i></div>
                             </div>
                             <div class="row-download-icon-container">
                                 <div class="row-download-icon"><i class="fa-solid fa-book-open"></i></div>
@@ -230,7 +230,7 @@
                             <div class="row-download">
                                 <h4>EUOSHA Document</h4>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
-                                <div class="btn download-btn">DOWNLOAD <i></i></div>
+                                <div class="btn download-btn">DOWNLOAD <i class="fa-solid fa-download"></i></i></div>
                             </div>
                         </div>
                         <div class="row">
@@ -240,7 +240,7 @@
                             <div class="row-download">
                                 <h4>EUOSHA Document</h4>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
-                                <div class="btn download-btn">DOWNLOAD <i></i></div>
+                                <div class="btn download-btn">DOWNLOAD <i class="fa-solid fa-download"></i></i></div>
                             </div>
                             <div class="row-download-icon-container">
                                 <div class="row-download-icon"><i class="fa-solid fa-book-open"></i></div>
@@ -248,7 +248,7 @@
                             <div class="row-download">
                                 <h4>EUOSHA Document</h4>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
-                                <div class="btn download-btn">DOWNLOAD <i></i></div>
+                                <div class="btn download-btn">DOWNLOAD <i class="fa-solid fa-download"></i></i></div>
                             </div>
                         </div>
                     </div>

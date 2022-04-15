@@ -219,19 +219,6 @@ a {
   width: 100px;
   height: 100px;
 }
-.main-top #container-agenda .row .download-btn {
-  text-align: center;
-  width: 200px;
-  display: inline-block;
-  color: #003399;
-  background: #a5b8db;
-  border-radius: 5px;
-  padding: 10px 12px;
-  border: 2px solid #a5b8db;
-}
-.main-top #container-agenda .row .download-btn:hover {
-  border: 2px solid #003399;
-}
 .main-top .btn-div {
   padding: 70px 0;
   display: flex;
@@ -244,6 +231,25 @@ a {
 
 .material-links {
   background-color: white;
+}
+
+.download-btn {
+  text-align: center;
+  width: 200px;
+  display: inline-block;
+  color: #003399;
+  background: #a5b8db;
+  border-radius: 5px;
+  padding: 10px 12px;
+  border: 2px solid #a5b8db;
+}
+.download-btn i {
+  padding-left: 5px;
+  color: #003399;
+}
+
+.download-btn:hover {
+  border: 2px solid #003399;
 }
 
 .arrow-box {
@@ -270,6 +276,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #a5b8db;
 }
 .main-bottom .container {
   width: 60%;
