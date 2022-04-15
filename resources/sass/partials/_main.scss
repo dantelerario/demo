@@ -21,22 +21,27 @@ a {
 .main-top {
     background-color: white;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    #agenda-title {
-        padding-top: 90px;
+    padding-left: 20%;
+    padding-top: 100px;
+    .title {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20%;
         h1 {
             font-weight: 700;
             color: $main-blue;
+            margin-bottom: 20px;
         }
         p {
             color: grey;
+            margin-bottom: 15px;
         }
         span {
             font-weight: 600;
             color: lightblue;
+            margin-bottom: 50px;
         }
-
     }
     #container-agenda {
         display: flex;
@@ -45,11 +50,15 @@ a {
         width: 80%;
         h2 {
             color: $main-blue;
+            margin-bottom: 15px;
         }
         .row {
             display: flex;
+            margin-bottom: 15px;
             .hour {
-                text-align: center;
+                text-align: right;
+                margin-right: 80px;
+                margin-bottom: 15px;
                 color: $main-blue;
                 width: 30%;
             }
@@ -70,6 +79,7 @@ a {
                     background-color:$main-blue;
                     padding: 20px;
                     margin-top: 20px;
+                    margin-bottom: 15px;
                     border-radius: 3px;
                     .avatar-square {
                         border-radius: 50%;
@@ -135,11 +145,5 @@ a {
     border-color: rgba(136, 183, 213, 0);
     border-bottom-color: $main-blue;
     border-width: 8px;
-    margin-left: -325px;
+    margin-left: -40%;
 }
-
-footer {
-    background-color: $main-blue;
-}
-
-

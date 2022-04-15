@@ -10,14 +10,14 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     </head>
     <body>
-        <header>
+        <header id="header">
             <div class="navbar">
                 <div class="navbar-div"></div>
                 <div class="link-list navbar-div">
                     <ul>
-                        <li class="links"><a href="/">Home</a></li>
-                        <li class="links"><a href="/">Agenda</a></li>
-                        <li class="links"><a href="/">Material</a></li>
+                        <li class="links"><a href="#header">Home</a></li>
+                        <li class="links"><a href="#main">Agenda</a></li>
+                        <li class="links"><a href="#bottom">Material</a></li>
                     </ul>
                 </div>
                 <div class="navbar-div">
@@ -68,14 +68,16 @@
                 <p>The aim of this workshop is to present, discuss, validate and consolidate themain findings of WP1 Tasks 1 and 2 with selected experts on the topic. Theworkshop will also help fine-tune the preparation and implementation ofwork package 2of this project.</p>
             </div>    
         </header>
-        <div class="main-top">
-            <div id="agenda-title" class="container">
-                <h1>Agenda</h1>
-                <p>04 November 2021 | 10:00 - 14.30 CET</p>
-                <p>Moderator</p>
-                <span>+ Consortium</span>
-            </div>
+        <div id="main" class="main-top">
             <div id="container-agenda" class="container">
+                <div class="row">
+                    <div class="title">
+                        <h1>Agenda</h1>
+                        <p>04 November 2021 | 10:00 - 14.30 CET</p>
+                        <p>Moderator</p>
+                        <span>+ Consortium</span>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="hour">10:00-10:10 </div>
                     <div class="info">
@@ -190,31 +192,61 @@
                 </div> 
             </div>
         </div>
-        <div class="main-bottom">
+        <div id="bottom" class="main-bottom">
             <div class="container">
+                <h1>Material</h1>
                 <div class="row">
-                    <h1>Material</h1>
                     <div class="main-bottom-content">
                         <div class="row">
-                            <div class="row-download-icon"><i></i></div>
+                            <div class="row-download-icon-container">
+                                <div class="row-download-icon"><i class="fa-solid fa-book-open"></i></div>
+                            </div>
                             <div class="row-download">
-                                <h4></h4>
+                                <h4>EUOSHA Document</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
+                                <div class="btn download-btn">DOWNLOAD <i></i></div>
+                            </div>
+                            <div class="row-download-icon-container">
+                                <div class="row-download-icon"><i class="fa-solid fa-book-open"></i></div>
+                            </div>
+                            <div class="row-download">
+                                <h4>EUOSHA Document</h4>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
                                 <div class="btn download-btn">DOWNLOAD <i></i></div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="row-download-icon"><i></i></div>
+                        <div class="row-download-icon-container">
+                                <div class="row-download-icon"><i class="fa-solid fa-book-open"></i></div>
+                            </div>
                             <div class="row-download">
-                                <h4></h4>
+                                <h4>EUOSHA Document</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
+                                <div class="btn download-btn">DOWNLOAD <i></i></div>
+                            </div>
+                            <div class="row-download-icon-container">
+                                <div class="row-download-icon"><i class="fa-solid fa-book-open"></i></div>
+                            </div>
+                            <div class="row-download">
+                                <h4>EUOSHA Document</h4>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
                                 <div class="btn download-btn">DOWNLOAD <i></i></div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="row-download-icon"><i></i></div>
+                            <div class="row-download-icon-container">
+                                <div class="row-download-icon"><i class="fa-solid fa-book-open"></i></div>
+                            </div>
                             <div class="row-download">
-                                <h4></h4>
+                                <h4>EUOSHA Document</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
+                                <div class="btn download-btn">DOWNLOAD <i></i></div>
+                            </div>
+                            <div class="row-download-icon-container">
+                                <div class="row-download-icon"><i class="fa-solid fa-book-open"></i></div>
+                            </div>
+                            <div class="row-download">
+                                <h4>EUOSHA Document</h4>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
                                 <div class="btn download-btn">DOWNLOAD <i></i></div>
                             </div>

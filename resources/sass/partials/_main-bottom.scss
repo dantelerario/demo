@@ -1,0 +1,35 @@
+.main-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container {
+        width: 60%;
+        padding: 10% 0;
+    }
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .row-download {
+            width: 50%;
+        }
+        .row-download-icon-container {
+            width: 20%;
+            .row-download-icon {
+                border-radius: 50%;
+                background: white;
+                border-width: thick;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                max-width: 90px;
+                min-height: 90px;
+                margin-right: 5%;
+                font-size: 40px;
+                color: $main-blue;
+            }
+        }
+    }
+}
+

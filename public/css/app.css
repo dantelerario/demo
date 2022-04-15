@@ -3,11 +3,14 @@ header {
   background: radial-gradient(circle, rgb(224, 230, 242) 6%, rgb(255, 255, 255) 23%, rgb(224, 230, 242) 42%, rgb(224, 230, 242) 55%);
 }
 header .navbar {
+  position: fixed;
+  top: 0;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   background-color: white;
   align-items: center;
-  min-width: 950px;
+  min-width: 98%;
   min-height: 90px;
   font-size: 14px;
   font-weight: 700;
@@ -84,7 +87,7 @@ header .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10% 45% 18% 0;
+  padding: 20% 45% 18% 0;
   color: #003399;
 }
 header .hero h3 {
@@ -135,22 +138,28 @@ a {
 .main-top {
   background-color: white;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  padding-left: 20%;
+  padding-top: 100px;
 }
-.main-top #agenda-title {
-  padding-top: 90px;
+.main-top .title {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
 }
-.main-top #agenda-title h1 {
+.main-top .title h1 {
   font-weight: 700;
   color: #003399;
+  margin-bottom: 20px;
 }
-.main-top #agenda-title p {
+.main-top .title p {
   color: grey;
+  margin-bottom: 15px;
 }
-.main-top #agenda-title span {
+.main-top .title span {
   font-weight: 600;
   color: lightblue;
+  margin-bottom: 50px;
 }
 .main-top #container-agenda {
   display: flex;
@@ -160,12 +169,16 @@ a {
 }
 .main-top #container-agenda h2 {
   color: #003399;
+  margin-bottom: 15px;
 }
 .main-top #container-agenda .row {
   display: flex;
+  margin-bottom: 15px;
 }
 .main-top #container-agenda .row .hour {
-  text-align: center;
+  text-align: right;
+  margin-right: 80px;
+  margin-bottom: 15px;
   color: #003399;
   width: 30%;
 }
@@ -187,6 +200,7 @@ a {
   background-color: #003399;
   padding: 20px;
   margin-top: 20px;
+  margin-bottom: 15px;
   border-radius: 3px;
 }
 .main-top #container-agenda .row .info #info-square .avatar-square {
@@ -249,7 +263,42 @@ a {
   border-color: rgba(136, 183, 213, 0);
   border-bottom-color: #003399;
   border-width: 8px;
-  margin-left: -325px;
+  margin-left: -40%;
+}
+
+.main-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-bottom .container {
+  width: 60%;
+  padding: 10% 0;
+}
+.main-bottom .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-bottom .row .row-download {
+  width: 50%;
+}
+.main-bottom .row .row-download-icon-container {
+  width: 20%;
+}
+.main-bottom .row .row-download-icon-container .row-download-icon {
+  border-radius: 50%;
+  background: white;
+  border-width: thick;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 90px;
+  min-height: 90px;
+  margin-right: 5%;
+  font-size: 40px;
+  color: #003399;
 }
 
 footer {
