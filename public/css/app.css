@@ -7,6 +7,7 @@
   border-radius: 5px;
   padding: 10px 12px;
   border: 2px solid #a5b8db;
+  transition: 1s;
 }
 .download-btn i {
   padding-left: 5px;
@@ -118,6 +119,7 @@ header .countdown-bar .timer-div .timer-span {
 }
 header a {
   color: #003399;
+  transition: 1s;
 }
 header ul {
   display: flex;
@@ -139,6 +141,7 @@ header ul .links-social {
 header ul .links-social i {
   color: grey;
   font-size: 18px;
+  transition: 1s;
 }
 header ul .links-social i:hover {
   color: red;
@@ -369,6 +372,7 @@ a {
 #main-bottom-bottom .container .material-links a {
   color: #003399;
   text-decoration: none;
+  transition: 1s;
 }
 #main-bottom-bottom .container .material-links p, #main-bottom-bottom .container .material-links a {
   font-weight: bold;
@@ -409,6 +413,7 @@ footer .container .container-links .row ul li {
 }
 footer .container .container-links .row ul li a {
   color: #a5b8db;
+  transition: 1s;
 }
 footer .container .container-links .row ul li a:hover {
   color: red;
@@ -425,6 +430,7 @@ footer .container .container-socials .socials a {
   color: white;
   text-decoration: none;
   padding: 10px;
+  transition: 1s;
 }
 footer .container .container-socials .socials a:hover {
   color: red;

@@ -54,6 +54,7 @@ header {
     }
     a {
         color: #003399;
+        transition: 1s;
     }
     ul {
         display: flex;
@@ -73,6 +74,7 @@ header {
             i {
                 color: grey;
                 font-size: 18px;
+                transition: 1s;
             }
             i:hover {
                 color: red;

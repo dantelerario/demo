@@ -19,6 +19,7 @@ footer {
                         padding: 10px;
                         a {
                             color: $light-blue;
+                            transition: 1s;
                         }
                         a:hover {
                             color: red;
@@ -37,6 +38,7 @@ footer {
                     color: white;
                     text-decoration: none;
                     padding: 10px;
+                    transition: 1s;
                 }
                 a:hover {
                     color: red;
