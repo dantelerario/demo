@@ -1,3 +1,47 @@
 footer {
     background-color: $main-blue;
+    display: flex;
+    justify-content: center;
+    .container {
+        display: flex;
+        width: 80%;
+        padding: 2% 0;
+        .container-links {
+            width: 100%;
+            .row {
+                display: flex;
+                flex-direction: column;
+                color: $light-blue;
+                font-size: 12px;
+                ul {
+                    display: flex;
+                    li {
+                        padding: 10px;
+                        a {
+                            color: $light-blue;
+                        }
+                        a:hover {
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+        .container-socials {
+            width: 80%;
+            .socials {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                a {
+                    color: white;
+                    text-decoration: none;
+                    padding: 10px;
+                }
+                a:hover {
+                    color: red;
+                }
+            }
+        }
+    }
 }

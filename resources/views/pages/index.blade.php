@@ -253,58 +253,62 @@
                         </div>
                     </div>
                 </div>
-                <div class="row material-links">
-                    <p>For information and lorem ipsum dolor sit amet</p>
-                    <a href="/">Lorem ipsum dolor sit amet<i></i></a>
-                    <a href="/">Sed ut perspiciatis unde omnis iste<i></i></a>
-                    <a href="/">Sed ut perspiciatis unde omnis iste natus error sit voluptatem<i></i></a>
-                    <a href="/">Lorem ipsum dolor sit amet, consetetur<i></i></a>
-                    <a href="/">Sed ut perspiciatis unde omnis iste natus error sit<i></i></a>
-                </div>
-            </div>      
+            </div>     
         </div>
-        <footer>
-            <div class="col-lg-8">
-                <div class="row">
-                    <p>@ 2021 EU-OSHA | an agency of the European Union</p>
-                </div>
-                <div class="row">
-                    <ul>
-                        <li>
-                            <a href="/">Site map</a>
-                        </li>
-                        <li>
-                            <a href="/">Contact us</a>
-                        </li>
-                        <li>
-                            <a href="/">Accessibility</a>
-                        </li>
-                        <li>
-                            <a href="/">Data protection</a>
-                        </li>
-                        <li>
-                            <a href="/">Privacy notice</a>
-                        </li>
-                        <li>
-                            <a href="/">Cookies</a>
-                        </li>
-                        <li>
-                            <a href="/">Legal notice</a>
-                        </li>
-                        <li>
-                            <a href="/">RSS</a>
-                        </li>
-                    </ul>
+        <div id="main-bottom-bottom">
+            <div class="container round-box">
+                <div class="material-links">
+                    <p>For information and lorem ipsum dolor sit amet</p>
+                    <a href="/">Lorem ipsum dolor sit amet<i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="/">Sed ut perspiciatis unde omnis iste<i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="/">Sed ut perspiciatis unde omnis iste natus error sit voluptatem<i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="/">Lorem ipsum dolor sit amet, consetetur<i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="/">Sed ut perspiciatis unde omnis iste natus error sit<i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
-            <div>
-                <div>
-                    <a href="/"><i></i>twitter</a>
-                    <a href="/"><i></i>Facebook</a>
-                    <a href="/"><i></i>Linkedin</a>
-                    <a href="/"><i></i>YouTube</a>
-                    <a href="/"><i></i>Twitch</a>
-                    <a href="/"><i></i>Boh</a>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="container-links">
+                    <div class="row">
+                        <p>@ 2021 EU-OSHA | an agency of the European Union</p>
+                        <ul>
+                            <li>
+                                <a href="/">Site map</a>
+                            </li>
+                            <li>
+                                <a href="/">Contact us</a>
+                            </li>
+                            <li>
+                                <a href="/">Accessibility</a>
+                            </li>
+                            <li>
+                                <a href="/">Data protection</a>
+                            </li>
+                            <li>
+                                <a href="/">Privacy notice</a>
+                            </li>
+                            <li>
+                                <a href="/">Cookies</a>
+                            </li>
+                            <li>
+                                <a href="/">Legal notice</a>
+                            </li>
+                            <li>
+                                <a href="/">RSS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container-socials">
+                    <div class="socials">
+                        <a href="/"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="/"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="/"><i class="fa-brands fa-youtube-square"></i></a>
+                        <a href="/"><i class="fa-brands fa-twitch"></i></a>
+                        <a href="/"><i class="fa-brands fa-google-plus-square"></i></a>
+                    </div>
                 </div>
             </div>
         </footer>
