@@ -16,11 +16,11 @@ class CreatePartecipantsTable extends Migration
         Schema::create('partecipants', function (Blueprint $table) {
             $table->id();
             $table->date('birth_date');
-            $table->text('country');
-            $table->text('title');
+            $table->text('country')->nullable();
+            $table->text('title')->nullable();
             $table->string('mobile')->unique();
-            $table->text('organization');
-            $table->string('position', 25);
+            $table->text('organization')->nullable();
+            $table->string('position', 25)->nullable();
             $table->text('first_name');
             $table->text('last_name');
             $table->timestamp('added_at');

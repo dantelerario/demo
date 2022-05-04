@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Partecipant;
 use Illuminate\Http\Request;
+use Carbon\Carbon;
 
 class PartecipantController extends Controller
 {
@@ -35,10 +36,15 @@ class PartecipantController extends Controller
      */
     public function store(Request $request)
     {
+        $age = Carbon::parse($request['birth_date'])->age;
+        
+        if ($age < 18) {
+            return redirect()->route('page.create')
+                             ->with('warning','Devi essere maggiorenne per partecipare');
+        }
         $mobile = $request['mobile'];
 
         $check = $this->checkMobile($mobile);
-
 
         if ($check == $request['mobile']) {
             return redirect()->route('page.create')
@@ -112,6 +118,10 @@ class PartecipantController extends Controller
     {
         $check = Partecipant::where('mobile', $mobile)->first();
 
-        return $check['mobile'];
+        if ($check === NULL) {
+            return $check;
+        } else {
+            return $check['mobile'];
+        }
     }
 }
